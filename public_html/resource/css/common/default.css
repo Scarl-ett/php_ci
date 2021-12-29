@@ -1,0 +1,25 @@
+/* =============================
+
+    박보라
+    Copryright 2016 Chungchuy.com
+    written for - http://techbug.tistory.com
+
+    - 칼라 견본 -
+    #fc8383 - light red
+    #6699ff - light blue
+
+ ============================= */
+
+@charset "euc-kr";
+
+@import url("/public_html/resource/font/NotoKR-Regular/notokr-regular.css"); 
+@import url("/public_html/resource/font/NotoKR-Black/notokr-black.css"); 
+@import url("/public_html/resource/font/NotoKR-Bold/notokr-bold.css"); 
+@import url("/public_html/resource/font/NotoKR-DemiLight/notokr-demilight.css"); 
+@import url("/public_html/resource/font/NotoKR-Light/notokr-light.css"); 
+@import url("/public_html/resource/font/NotoKR-Medium/notokr-medium.css"); 
+@import url("/public_html/resource/font/NotoKR-Thin/notokr-thin.css");
+
+@import url("/public_html/resource/css/common/base.css");    /*CSS Reset & overrides*/
+
+@import url("/public_html/resource/css/common/today-study.css");   /* 오늘의 학습 */

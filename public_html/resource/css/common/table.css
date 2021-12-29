@@ -1,0 +1,680 @@
+/* =============================
+
+    박보라
+    Copryright 2016 Chungchuy.com
+
+    - 칼라 견본 -
+    #fb6464 - light red
+    #6699ff - light blue
+
+ ============================= */
+
+
+/* 학습이력 테이블 */
+    
+.his-table {
+    margin: 45px 0 45px 0;
+    width: 1000px;
+    border-top: 2px solid #7c9cff;
+    text-align: center;
+    table-layout: fixed;
+    
+}
+    .his-table caption {
+        display: none;
+    }
+    .his-table thead {
+        border-bottom: 1px solid #7e6d6d;
+    }
+    .his-table thead tr {
+        height: 53px;
+        background: #fbfbfb;
+        
+        font-size: 16px;
+        line-height: 53px;
+    }
+        .his-table tbody tr {
+            height: 63px;
+            border-bottom: 1px solid #d6d6d6;
+            font-size: 16px;
+            /* line-height: 62px; */
+            line-height: 40px;
+            color: #666;
+        }
+            .his-table tbody tr td a, .his-table tbody tr td span {
+                display: block;
+                margin: 0 auto;
+                width: 31px;
+                height: 20px;
+            }
+            .his-table tbody tr td a.opa30 {
+                cursor: default;
+            }
+            .his-table tbody tr td.ellipsis a {
+                width: 100%;
+                height: 100%;
+            }
+            .his-table tbody .ellipsis {
+                padding: 0 10px 0 0;
+                /* text-align: left; */
+            }
+        
+            /* exam lc, ucc width */
+            .t-exam th, .t-exam td, .t-exam li {
+                border-right: 1px solid #d6d6d6;
+            }
+            .exam-last {
+                border-right: 0 none !important;
+            }
+            .t-exam .exam-thead-1,
+            .t-exam .exam-thead-2 {
+                height: 27px !important;
+                font-size: 16px;
+                line-height: 27px;
+            }
+            .exam-thead-2 {
+                border-top: 1px solid #d6d6d6 !important;
+                background: #eaeaea !important;
+            }
+            .t-exam tbody tr td a.exam-o,
+            .t-exam tbody tr td a.exam-x {
+                width: 18px;
+            }
+            .t-exam tbody tr td a.exam-o {
+                background-position: -85px -48px;
+            } 
+            .t-exam tbody tr td a.exam-x {
+                background-position: -108px -48px;
+            } 
+            .t-exam tbody tr td a.exam-r {
+                width: 44px;
+                background-position: -36px -48px;
+            } 
+            
+            /* exam rc */
+            tbody.exam-rc tr, .exam-rc tr td ul li {
+                height: 31px;
+                line-height: 31px;
+            }
+            tbody.exam-rc tr .exam-rc-n {
+                background: #eaeaea !important;
+            }
+            .exam-rc tr td ul li {
+                width: 5%;
+            }
+            .exam-rc tr td ul li a {
+                margin: 6px auto;
+            }
+
+/* 파워보카 랭킹 테이블 */
+.lank-table {
+    clear: both;
+    width: 448px;
+}
+    .lank-table thead tr th {
+        background: #5468b6;
+        color: #fff;
+        font-size: 18px;
+        line-height: 45px;
+    }
+    .lank-table th, 
+    .lank-table td {
+        height: 45px;
+    }
+    .lank-table tbody tr td {
+        color: #666;
+        background: #fff;
+        font-size: 16px;
+        line-height: 45px;
+    }
+    .lank-table tbody tr:nth-child(even) td {
+        background: #cdddfc;
+    }
+    .lank-table tbody tr td.ellipsis {
+        display: block;
+        width: 108px;
+    }
+
+
+/* 마이페이지 테이블 */
+.my-table {
+        width: 100%;
+        border-top: 2px solid #7c9cff;
+        text-align: center;
+    }
+        .my-table thead {
+            border-bottom: 1px solid #7e6d6d;
+        }
+            .my-table thead tr {
+                height: 53px;
+                background: #fff;
+                
+                font-size: 16px;
+                line-height: 21px;
+                vertical-align: middle;
+            }
+            .my-table tbody tr {
+                width: 745px;
+                height: 55px;
+                border-bottom: 1px solid #d6d6d6;
+                font-size: 16px;
+                line-height: 53px;
+                color: #666;
+            }
+                .my-table tbody tr.my-profile th,
+                .my-table tbody tr.my-profile td {
+                    height: 158px;
+                    line-height: 158px;
+                }
+                .my-table tbody tr th {
+                    background: #fbfbfb;
+                    color: #666666;
+                    
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 53px;
+                }
+                .my-table tbody tr td {
+                    font-size: 16px;
+                    line-height: 53px;
+                    text-align: left;
+                    padding-left: 20px;
+                }
+                    table.my-table tbody tr.mt-td td {
+                        padding: 15px 56px;
+                        line-height: 24px;
+                    }
+                    table.my-table tbody tr td.mt-td-tt {
+                        padding: 0; 
+                        text-align: center;
+                        border-right: 1px solid #d6d6d6; 
+                        color: #222;
+                    }
+                    table.my-table tbody tr td.mt-td-tt2 {
+                        padding: 0; 
+                        text-align: center;
+                    }
+
+                .pf-relative {
+                    float: left;
+                    position: relative;
+                    top: 18px;
+                }
+                .my-pf-layer {
+                    position: absolute;
+                    width: 123px;
+                    height: 123px;
+                    background: url(/public_html/resource/images/sub/profile-layer.png) no-repeat;
+                }   
+                .pf-btn-wrap {
+                    float: left;
+                    padding-top: 102px;
+                    padding-left: 20px;
+                }
+                    .pf-btn-wrap a {
+                        display: block;
+                        width: 109px;
+                        height: 30px;
+                        float: left;
+                        font-size: 16px;
+                        line-height: 28px;
+                        text-align: center;
+                    }
+                        .pf-btn-wrap a.red-line {
+                            margin-left: 15px;
+                        }
+                        
+                        #changePwBtn {
+                            display: block;
+                            line-height: 28px;
+                            text-align: center;
+                            height: 30px;
+                            width: 130px;
+                        }
+                        
+                .my-table input[type="text"] {
+                    width: 182px;
+                    padding: 0 9px;
+                    height: 30px;
+                    border: 1px solid #d6d6d6;
+                    background: #fff;
+                    color: #666;
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+                .my-table input:focus {
+                    border: 1px solid #6699ff;
+                }
+                
+                .my-table label {
+                    font-size: 16px;
+                    line-height: 30px;
+                    padding-left: 8px;
+                    padding-right: 14px;
+                    vertical-align: middle;
+                }
+                label.pw {
+                    color: #6699ff;
+                }
+                    .my-table input.grade {
+                        width: 38px;
+                        text-align: center;
+                    }
+                    td.my-pnb-input input[type="text"] {
+                        width: 65px;
+                        text-align: center;
+                    }
+                    .t-caption {
+                        padding-top: 5px;
+                        padding-bottom: 13px;
+                        font-size: 14px;
+                        color: #e7583a;
+                        text-align: right;
+                    }
+
+                    .q-name {
+                        margin-right: 24px;
+                        width: 128px;
+                    }
+                    .q-select {
+                        width: 128px;
+                        padding: 0 9px;
+                        height: 30px;
+                        border: 1px solid #f4f4f4;
+                        background: #fff;
+                        color: #666;
+                        font-size: 16px;
+                        line-height: 28px;
+                        appearance:none;
+                        -webkit-appearance:none;
+                        background-image: url(/public_html/resource/images/sub/select-arrow.png);
+                        background-position: 105px center;
+                        background-repeat: no-repeat;
+                        outline: none;
+                        /* opacity: 0;
+                        filter: alpha(opacity=0); */ /* IE 8 */
+                    }
+                    .q-ta {
+                        width: 555px;
+                        height: 272px;
+                        padding: 5px;
+                        margin-top: 15px;
+                        border: 1px solid #f4f4f4;
+                        font-size: 16px;
+                        line-height: 28px;  
+                        color: #666;
+                    } /* 1:1문의 텍스트에어리어 */
+                    
+                    .filebox input[type="file"] {
+                        position: absolute;
+                        width: 1px;
+                        height: 1px;
+                        padding: 0;
+                        margin: -1px;
+                        overflow: hidden;
+                        clip:rect(0,0,0,0);
+                        border: 0;
+                    } /* 파일 인풋 안보이게 */
+
+                    .filebox label {
+                        display: inline-block;
+                        margin-left: 17px;
+                        width: 217px;
+                        height: 30px;
+                        vertical-align: middle;
+                        cursor: pointer;
+                        font-size: 16px;
+                        line-height: 28px;
+                        text-align: center;
+                    }
+
+                    /* named upload */
+                    .filebox .upload-name {
+                        display: inline-block;
+                        width: 319px;
+                        height: 30px;
+                        font-size: inherit;
+                        font-family: inherit;
+                        line-height: 28px;
+                        vertical-align: middle;
+                        border: 1px solid #f4f4f4;
+                        -webkit-appearance: none; /* 네이티브 외형 감추기 */
+                        -moz-appearance: none;
+                        appearance: none;
+                    }
+
+
+/* 서브페이지 테이블 */
+.sub-table {
+    margin: 45px 0 70px 0;
+    width: 100%;
+    border-top: 2px solid #7c9cff;
+    text-align: center;
+    table-layout: fixed;
+}
+table.notice-table {
+    margin: 21px 0 70px 0;
+}
+    .sub-table caption {
+        display: none;
+    }
+    .sub-table thead {
+        border-bottom: 1px solid #7e6d6d;
+    }
+    .sub-table thead tr {
+        height: 53px;
+        background: #fbfbfb;
+        
+        font-size: 16px;
+        line-height: 53px;
+    }
+        .sub-table tbody tr {
+            height: 63px;
+            border-bottom: 1px solid #d6d6d6;
+            font-size: 16px;
+            line-height: 21px;
+            vertical-align: middle;
+            color: #666;
+        }
+            .sub-table tbody tr td a:hover {
+                color: #222;
+            }
+        tr.point-result td {
+            background: #d6d6d6;;
+            color: #222;
+        }
+    .notice-new {
+        margin-top: 3px;
+        margin-left: 10px;
+        float: left;
+        display: inline-block;
+        padding: 0 5px;
+        width: auto;
+        height: 16px;
+        border-radius: 16px;
+        -moz-border-radius: 16px;
+        -webkit-border-radius: 16px;
+        background: #fb6464;
+        color: #fff;
+        font-size: 11px;
+        line-height: 16px;
+        font: 11px/16px 'Noto Sans';
+    }
+    
+    table.notice-table td {
+        overflow: hidden;
+    }
+    table.notice-table td a {
+        float: left;
+        display: inline-block;
+        min-width: auto;    
+        max-width: 400px;
+        text-align: left;
+        color: #666;
+    }
+
+table.notice-view thead tr {
+    background: #fff;
+    text-align: left;
+}
+    table.notice-view thead tr th {
+        padding: 0 56px;
+    }
+table.notice-view tbody tr {
+    text-align: left;
+}
+    table.notice-view tbody tr td {
+        padding: 0 56px;
+    }
+        table.notice-view tbody tr.nv-td td {
+            padding: 30px 56px;
+            height: 424px;
+            line-height: 22px;
+            vertical-align: top;
+        }
+
+
+/* qna table */
+table.q-table {
+        margin: 0 0 70px 0;
+    }
+    
+    table.q-table td {
+        overflow: hidden;
+    }
+    table.q-table td a {
+        display: inline-block;
+        width: 400px;
+        text-align: left;
+        color: #666;
+    }
+
+    table.q-table td.t-s {
+        width: 124px;
+        text-align: center;
+    }
+        table.q-table td.t-s span {
+            margin: 0 auto;
+            line-height: 34px;
+        }
+
+
+    /* 서브페이지 테이블 */
+    .msg-table {
+        width: 100%;
+        border-top: 2px solid #fb6464;
+        text-align: center;
+        table-layout: fixed;
+    }
+    table.msg-table {
+        margin: 0 0 45px 0;
+    }
+        .msg-table caption {
+            display: none;
+        }
+        .msg-table th {
+            height: 43px;
+            border-bottom: 1px solid #7e6d6d;
+            background: #fbfbfb;
+            
+            font-size: 16px;
+            line-height: 43px;
+        }
+            .msg-table tbody tr {
+                height: 40px;
+                border-bottom: 1px solid #d6d6d6;
+                font-size: 15px;
+                vertical-align: middle;
+                color: #666;
+            }
+                .msg-table tbody tr td a {
+                    color: #666;
+                }
+                .msg-table tbody tr td a.ellipsis {
+                    display: block;
+                    width: 100%;
+                    text-align: left;
+                }
+                .msg-table tbody tr td span.msg-o,
+                .msg-table tbody tr td span.msg-x {
+                    display: block;
+                    margin: 0 auto;
+                    width: 18px;
+                    height: 19px;
+                }
+                .msg-table tbody tr td span.msg-o {
+                    background-position: -85px -48px;
+                } 
+                .msg-table tbody tr td span.msg-x {
+                    background-position: -108px -48px;
+                } 
+
+    table.send-table tr th {
+        font-weight: bold;
+    }
+    table.send-table tr td.send-row1 {
+        padding: 13px;
+        height: 80px;
+        text-align: left;
+    }
+        .send-row1 input[type="checkbox"] {
+            display: none;
+        }
+        .send-row1 label {
+            margin-right: 20px;
+            display: inline-block;
+            width: 82px;
+            height: 35px;
+            padding: 0 0 0 35px;
+            background-image: url(/public_html/resource/images/sub/check-bg.png);
+            background-repeat: no-repeat;
+            background-position: 0 bottom;
+            line-height: 35px;
+            cursor: pointer;
+        }
+        
+    table.send-table tr td.send-row2 {
+        padding: 13px;
+        text-align: left;
+        vertical-align: top;
+    }
+        td.send-row2 textarea {
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #d6d6d6;
+            font-size: 14px;
+            color: #666;
+        }
+        td.send-row2 span {
+            display: block;
+            text-align: right;
+        }
+        td.send-row2 span strong {
+            color: #f96565;
+        }
+
+
+.point-table {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #d6d6d6;
+}
+.point-table th,
+.point-table td {
+    padding: 17px 20px;
+    font-size: 18px;
+}
+.point-table th {
+    text-align: left;
+    color: #666;
+    font-weight: normal;
+}
+.point-table td {
+    text-align: right;
+    color: #6699ff;
+    border-right: 1px solid #d6d6d6;
+}
+.point-table td.br0 {
+    text-align: center;
+    font-size: 30px;
+}
+.point-table td.br0 span {
+    color: #666;
+    font-size: 18px;
+}
+.pt-bt {
+    border-top: 1px solid #d6d6d6;
+    background: #f2f2f2;
+}
+
+/* 프리홈워크 테이블 */
+table.t-freeh2 thead tr {
+    height: 30px;
+    line-height: 1;
+}
+
+.his-table.my-table {
+    margin: 45px 0;
+}
+.his-table.my-table span {
+    color: #f96565;
+    padding-right: 3px;
+}
+.his-table.my-table + div {
+    text-align: right;
+    margin-top: -30px;
+    height: 70px;
+}
+.his-table.my-table .btn input {
+    float: left;
+}
+.his-table.my-table a {
+    margin-left: 10px;
+    display: block;
+    width: 120px;
+    height: 30px;
+    float: left;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.his-table.my-table select {
+    margin-left: 20px;
+    width: 190px;
+    height: 30px;
+    border: 1px solid #d6d6d6;
+    color: #666;
+    font-size: 14px;
+}
+.his-table.my-table .email select {
+    margin-left: 0;
+}
+.his-table.my-table .email input[type="checkbox"] {
+    width: 13px;
+    margin-left: 10px;
+}
+.his-table.my-table .email label {
+    padding-left: 0;
+}
+.his-table.my-table .addr {
+    line-height: 2.5;
+    padding: 18px 20px;
+}
+.his-table.my-table .addr span {
+    display: block;
+    float: left;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.his-table.my-table .addr .long_adr {
+    width: 310px;
+    margin-right: 10px;
+}
+
+.terms {
+    text-align: left;
+    height: 180px;
+    overflow-y: auto;
+    padding-top: 5px;
+}
+.terms h5 {
+    font-size: 14px;
+    padding-bottom: 30px;
+    line-height: 20px;
+    color: #222;
+}
+.terms h6 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    color: #222;
+}
+.terms p {
+    padding-bottom: 6px;
+    line-height: 20px;
+}
+.join-btn {
+    margin-top: 0;
+}

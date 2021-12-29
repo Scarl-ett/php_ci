@@ -1,0 +1,31 @@
+/* =============================
+
+    박보라
+    Copryright 2016 Chungchuy.com
+    written for - http://techbug.tistory.com
+
+    - 칼라 견본 -
+    #fb6464 - light red
+    #6699ff - light blue
+
+ ============================= */
+
+@charset "euc-kr";
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local(※),
+       url('/public_html/resource/font/NotoSansKR-Light.woff2') format('woff2'),
+       url('/public_html/resource/font/NotoSansKR-Light.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: local(※),
+        url('/public_html/resource/font/NotoSansKR-Regular.woff2') format('woff2'),
+        url('/public_html/resource/font/NotoSansKR-Regular.woff') format('woff');
+}
